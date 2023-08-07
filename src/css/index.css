@@ -1,0 +1,178 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.main_backgroud {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.main_nav {
+  position: absolute;
+  top: 80px;
+  transform: translateY(-50%);
+  text-align: center;
+  justify-content: space-around;
+}
+
+.nav_container{
+    padding: 0 120px;
+}
+
+.nav_container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav_container ul li {
+  list-style: none;
+  margin: 0 10px;
+  margin-bottom: 12px;
+}
+
+.nav_container ul li a {
+  color: #000;
+  font-weight: 200;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.container_title {
+  line-height: normal;
+}
+
+.main_title {
+  margin: 4px 0;
+  font-size: 32px;
+  padding: 0 24px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.sub_title {
+  font-size: 15px;
+  margin: 8px 0;
+}
+
+.card_container {
+    position: absolute;
+    top: 24px;
+    right: -40px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.card_container i {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.quantity_inCard {
+  position: absolute;
+  font-size: 12px;
+  top: 14px;
+  color: #fff;
+  left: 10px;
+  background-color: #ebcec3;
+  padding: 3px 7px;
+  border-radius: 35px;
+}
+
+.title_banner {
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  z-index: 1;
+  color: #000;
+}
+
+.title_banner_container {
+}
+.title_banner_slogan {
+  color: #be5656;
+  font-family: "Aguafina Script", cursive;
+  font-size: 41px;
+  margin: 0;
+}
+
+.title_banner_name {
+  width: 100px;
+  letter-spacing: 0.5px;
+  font-size: 100px;
+  font-weight: 500;
+  font-family: "Aguafina Script", cursive;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+    line-height: 1;
+}
+.title_banner_discripsion {
+    margin-top: 28px;
+    font-size: 18px;
+}
+
+/* content */
+
+.main_content{
+    position: absolute;
+    width: 100%;
+    top: 640px;
+    background-color: #fff;
+}
+
+.content_wrapper{
+    padding: 100px 120px;
+}
+
+.box-image_left{
+    width: 100%;
+}
+.box-image_right{
+    width: 100%;
+    position: relative;
+}
+
+.box-image_left img{
+    width: 100%;
+}
+
+.box_right-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 120px;
+}
+
+.box_right_subtitle{
+    font-size: 12px;
+    margin: 0 ;
+}
+
+.box_right_title{
+    width: 250px;
+    margin: 4px 0 20px 0;
+  font-size: 40px;
+  padding: 0;
+  font-weight: 50;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.box_more{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+
