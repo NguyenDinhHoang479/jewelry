@@ -111,8 +111,6 @@
   letter-spacing: 0.5px;
   font-size: 100px;
   font-weight: 500;
-  font-family: "Aguafina Script", cursive;
-  font-family: "Edu SA Beginner", cursive;
   font-family: "Poppins", sans-serif;
   margin: 0;
     line-height: 1;
@@ -128,6 +126,7 @@
     position: absolute;
     width: 100%;
     top: 640px;
+    padding: 0 auto 30px auto;
     background-color: #fff;
 }
 
@@ -174,5 +173,148 @@
     color: #000;
     font-size: 16px;
 }
+/* banner sub */
+.container_banner{
+  width: 100%;
+}
+.container_banner img{
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
 
+/* slider product */
+.container_product{
+  padding: 70px 120px 70px 120px;
 
+}
+.title_product{
+  color: #000;
+  text-align: center;
+}
+
+.title_product h2{
+  font-size: 24px;
+  font-weight: 200;
+  color: #000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.title_product img{
+  margin-top: 4px;
+  width: 10%;
+}
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 55%;
+  margin-bottom: 54px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+swiper-slide:hover img{
+  width: 60%;
+  transition: width .5s;
+}
+swiper-container {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.info_product{
+  position: absolute;
+    bottom: 42px;
+    left: 108px;
+}
+.title_product{
+  font-size: 12px;
+  color: #797878;
+}
+
+.name_product{
+  font-weight: 300;
+}
+.price_product{
+  font-size: 13px;
+  color: #00a28e;
+}
+/* Testimonials */
+.container_testimonials{
+  width: 100%;
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 50px;
+}
+.title_testimonials h4{
+  font-size: 34px;
+  font-weight: 100;
+  color: #000;
+  margin-bottom: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.title_testimonials p{
+  align-items: center;
+  font-size: 13px;
+  color: #888686;
+  margin-bottom: 12px;
+}
+
+.title_testimonials p::after{
+  content: "";
+  display: block;
+  width: 70px;
+  border: 0.5px solid #00a28e;
+  margin: 0 auto;
+  margin-top: 12px;
+  border-width: thin;
+
+}
+.content_testimonials{
+  width: 780px;
+  margin: 0 auto;
+  color: #888686;
+  text-align: center;
+  margin-top: 32px;
+  line-height: 28px;
+}
+.person_testimonials{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+.box_img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.box_img img{
+  border-radius: 50%  ;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box_info{
+  margin: 12px;
+}
+.box_info h2{
+  font-size: 16px;
+}
+.box_info span{
+  color: #888686;
+}
